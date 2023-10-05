@@ -1,0 +1,259 @@
+*:not(ul){
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 9vh;
+}
+body{
+    background-color: rgb(125, 172, 233);
+}
+.logo{
+    height: 2.6rem;
+    width: 2.6rem;
+    position: absolute;
+    left: 66.5rem;
+    top: 0.3rem;
+}
+nav,a{
+    background-color: rgb(114, 157, 214);
+    color: white;
+    text-decoration: none;
+    padding: 0.9rem;
+}
+a:hover{
+    border: 1px solid white;
+    border-radius: 1rem;
+    padding: 0.3rem;
+}
+main{
+    background-color: rgb(125, 172, 233);
+    min-height: 82vh;
+}
+h1{
+   text-align: center;
+   color: white;
+   font-size: xx-large;
+   font-style: oblique;
+   position: relative;
+   top: 0.5rem;
+}
+h2{
+    text-align: center;
+    color: rgb(231, 229, 229);
+    font-size: xx-large;
+    font-style: oblique;
+    position: relative;
+    top: 0.5rem;
+}
+/* img{
+    width: 100%;
+} */
+.secho1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.imgh1{
+    width: 85%;
+    margin: 2rem;
+}
+.secho2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3rem;
+}
+.imgh2{
+    width: 35%;
+    margin: 2rem;
+}
+.txth1{
+    width: 45%;
+    color: rgb(231, 229, 229);
+    font-style: oblique;
+    text-align: left;
+    font-size: xx-large;
+}
+footer{
+    color: white;
+    object-position: center;
+    text-align: center;
+    background-color: rgb(114, 157, 214);
+    padding: 0.2rem;
+    position: relative;
+    top: 10rem;
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+}
+.secab1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.imga1{
+    width: 25%;
+    height: 20rem;
+    object-fit: cover;
+    margin-top: 3rem;
+}
+.secab2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.imga2{
+    width: 25%;
+    height: 20rem;
+    object-fit: cover;
+    margin-top: 3rem;
+}
+.secab3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.imga3{
+    width: 25%;
+    height: 20rem;
+    object-fit: cover;
+    margin-top: 3rem;
+}
+.txta1{
+    width: 50%;
+    color: rgb(231, 229, 229);
+    font-style: oblique;
+    text-align: left;
+    font-size: xx-large;
+}
+.secco1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imgc1{
+    width: 80%;
+    margin: 2rem;
+}
+.txtc1{
+    width: 100%;
+    color: rgb(231, 229, 229);
+    font-style: oblique;
+    text-align: left;
+    font-size: xx-large;
+    margin: 3rem;
+    text-align: center;
+}
+.secco2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+}
+.txtc2{
+    width: 100%;
+    color: rgb(231, 229, 229);
+    font-style: oblique;
+    text-align: left;
+    font-size: xx-large;
+    text-align: center;
+    background-color: rgb(125, 172, 233);
+}
+
+/* #imgc1{
+    height: 30rem;
+    width: 55rem;
+    position: relative;
+    left: 7rem;
+    top: 2rem;
+    object-fit: cover;
+}
+#txtc1{
+    color: rgb(231, 229, 229);
+    font-style: oblique;
+    text-align: center;
+    font-size: xx-large;
+    position: relative;
+    bottom: -4rem;
+}
+#txtc2{
+    color: rgb(231, 229, 229);
+    font-style: oblique;
+    text-align: left;
+    font-size: xx-large;
+    width: 34rem;
+    position: relative;
+    bottom: -6rem;
+}#txtc3{
+    color: rgb(231, 229, 229);
+    font-style: oblique;
+    text-align: left;
+    font-size: xx-large;
+    width: 34rem;
+    position: relative;
+    bottom: -6rem;
+    left: 31.5rem;
+} */
+table, th, td{
+    border: 4px solid rgba(0, 0, 0, 0.582);
+    text-align: center;
+    padding: 4rem;
+    border-collapse: collapse;
+    margin-top: 2rem;
+
+}
+.maintabla{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    text-align: center;
+    height: 50%;
+    margin-top: 2rem;
+    color: rgb(231, 229, 229);
+    font-style: oblique;
+    font-size: xx-large;
+}
+.sect1{
+    display: flex;
+    justify-content: center;
+    border: solid rgb(231, 229, 229);
+    align-items: center;
+    margin: 2rem;
+    margin-top: 4rem;
+}
+.imgt1{
+    width: 25%;
+    padding: 2rem;
+    position: relative;
+    left: -4rem;
+}
+.txtt1{
+    width: 60%;
+    color: rgb(231, 229, 229);
+    font-style: oblique;
+    text-align: left;
+    font-size: xx-large;
+}
+.sect2{
+    display: flex;
+    justify-content: center;
+    border: solid rgb(231, 229, 229);
+    align-items: center;
+    margin: 2rem;
+}
+.imgt2{
+    width: 25%;
+    padding: 2rem;
+    position: relative;
+    left: -4rem;
+}
