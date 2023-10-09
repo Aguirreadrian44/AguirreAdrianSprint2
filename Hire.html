@@ -16,7 +16,7 @@
             <a href="contact.html">Contact</a>
             <a href="info.html">Info</a>
             <a href="tips.html">Tips</a>
-            <a href="#">Raffle</a>
+            <a href="#">Hire</a>
             <img class="logo" src="./images/logo.png" alt="logo">
         </nav>
     </header>
@@ -28,32 +28,53 @@
                 <h3>Our location</h3>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d846575.5791754882!2d-119.07130816433029!3d34.01985740165755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20%C3%81ngeles%2C%20California%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1696871463518!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </section>
+
             <div class="form">
                 <form action="show_data.html" method="get">
+                    <fieldset>
+                        <label for="Nombre">First name and last name</label>
+                        <input type="text" id="Nombre" name="Nombre y apellido">
+                    </fieldset>
 
-                    <label for="Nombre">First name and last name</label>
-                    <input type="text" id="Nombre">
-
-                    <label for="Tel">Phone number</label>
-                    <input type="text" id="Tel">
-
-                    <label for="Servicio">Chosse service</label>
-                    <input type="text" id="Servicio">
-
-                    <label for="Dato">Chosse date</label>
-                    <input type="text" id="Dato">
+                    <fieldset>
+                        <label for="Tel">Phone number</label>
+                        <input type="text" id="Tel" name="Tel">
+                    </fieldset>
                     
-                    <h3>Payment options</h3>
-                    <label for="Pago">Cash</label>
-                    <input type="radio" name="Pagos" id="Pago" value="Cash">
-                    <label for="Credito">Credit Card</label>
-                    <input type="radio" name="Pagos" id="Credito" value="Credit">
-                    <label for="Debito">Debit Card</label>
-                    <input type="radio" name="Pagos" id="Debito" value="Debit">
+                    <fieldset>
+                        <label for="Servicio">Chosse service</label>
+                        <select name="Plan" id="Servicio">
+                            <option value="">Selecciona una opcion</option>
+                            <option value="Standar">Standar</option>
+                            <option value="Gold">Gold</option>
+                            <option value="Premiun" id="Servicio">Premiun</option>
+                        </select>  
+                    </fieldset>  
 
-                    <label for="Mensaje">Message (Location and time)</label>
-                    <textarea name="Mensaje" id="Mensaje" cols="30" rows="10"></textarea>
+                    <fieldset>
+                        <label for="Dato">Chosse date</label>
+                        <input type="date" name="Dato" id="Dato">
+                    </fieldset>
 
+                        <h3>Payment options</h3>
+                        <br>
+                        <input type="radio" name="Pagos" id="Pago" value="Cash">
+                        <label for="Pago">Cash</label>   
+                        <br>
+                        <input type="radio" name="Pagos" id="Credito" value="Credit">
+                        <label for="Credito">Credit Card</label>                
+                        <br>
+                        <input type="radio" name="Pagos" id="Debito" value="Debit">
+                        <label for="Debito">Debit Card</label>                   
+ 
+                    <fieldset>
+                        <label for="Mensaje">Message (Location and time)</label>
+                        <textarea name="Mensaje" id="Mensaje" cols="30" rows="10"></textarea>
+                    </fieldset>
+
+                        <input type="checkbox" name="Condiciones" id="Condiciones">
+                        <label for="Condiciones">I accept forms and conditions.</label>
+                        <input type="submit" value="Enviar">
                 </form>
             </div>
         </div>
