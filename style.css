@@ -47,9 +47,6 @@ h2{
     position: relative;
     top: 0.5rem;
 }
-/* img{
-    width: 100%;
-} */
 .secho1{
     display: flex;
     justify-content: center;
@@ -224,17 +221,34 @@ table, th, td{
 }
 .sechire{
     display: flex;
+    margin: 2rem;
+    border: 0.2rem solid white;
 }
-
+h3{
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    font-style: oblique;
+}
+.iframe{
+    display: flex;
+    flex-direction: column;
+    min-width: 5rem;
+    margin: 2rem;
+    padding: 2rem;
+}
 .form{
     display: flex;
     flex-direction: column;
-    background-color: blue;
-    padding: 3rem;
+    padding: 2rem;
+    color: white;
+    font-style: oblique;
+    font-size: larger;
 }
 fieldset{
     text-align: center;
     border: none;
     display: flex;
     flex-direction: column;
+    padding: 0.2rem;
 }
