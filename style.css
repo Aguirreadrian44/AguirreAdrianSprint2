@@ -359,8 +359,8 @@ fieldset{
     .iframe{
         display: flex;
         flex-direction: column;
-        margin: -1.55rem;
-        padding: 2rem;
+        margin: 0.5rem;
+        padding: 0rem;
     }
     .form{
         display: flex;
@@ -370,5 +370,14 @@ fieldset{
         font-style: oblique;
         font-size: larger;
     }
-
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+        /* Info */
+        table, th, td{
+            border: 4px solid rgba(0, 0, 0, 0.582);
+            text-align: center;
+            padding: 1.5rem;
+            border-collapse: collapse;
+            margin-top: 2rem;
+        }
 }
